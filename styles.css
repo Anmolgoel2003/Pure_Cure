@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* Add your general styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.heading span {
+    color: rgb(17, 160, 160);;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.box .price {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.box .stars {
+    color: #FFD700;
+    margin: 10px 0;
+}
+
+.box .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.box .btn:hover {
+    background-color: rgb(17, 160, 160);
+    color: white;
+}
